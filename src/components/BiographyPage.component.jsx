@@ -2,7 +2,7 @@
 function BiographyPage() {
 
   return (
-    <div className='h-screen p-10 flex flex-col justify-around col-start-2 col-end-13 row-start-2 row-end-3 border-t-4 border-blue-900'>
+    <div className='md:w-4/5 sm-2x:w-full mx-auto bg-white  h-screen p-10 flex flex-col justify-around col-start-2 col-end-13 row-start-2 row-end-3 border-t-4 border-blue-900'>
       <div>
         <h2 className='text-[50px] font-medium text-gray-700'>Biography</h2>
       </div>

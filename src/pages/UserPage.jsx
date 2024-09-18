@@ -21,8 +21,8 @@ function UserPage() {
   }, []);
 
   return (
-    <div className='flex flex-col col-start-2 col-end-13 row-start-2 row-end-3'>
-      <div className='border-t-4 border-blue-950 flex lg:flex-row lg:gap-y-0  sm-2x:flex-col sm-2x:gap-y-20 justify-between xl:p-20 lg:p-10 md:p-5 border-b-2'>
+    <div className='md:w-4/5 sm-2x:w-full bg-white mx-auto flex flex-col col-start-2 col-end-13 row-start-2 row-end-3'>
+      <div className='border-t-4 border-blue-950 flex lg:flex-row lg:gap-y-0  sm-2x:flex-col sm-2x:gap-y-20 justify-between xl:p-20 lg:p-10 md:p-5 sm-2x:p-2 border-b-2'>
         <div id='profile-info' className='flex flex-col justify-around w-[500px] lg:order-1 sm-2x:order-2 lg:gap-y-0 sm-2x:gap-y-10 sm-2x:w-fit'>
           <p className='font-medium'>Welcome to the Homepage of</p>
           <h1 className='text-[36px] font-medium text-blue-900'>Ali Mansouri</h1>
@@ -34,7 +34,7 @@ function UserPage() {
           <img src="/images/Personal.jpg" alt="profile" className=' rounded-2xl xl:min-w-[500px] xl:min-h-[500px] lg:w-[350px] lg:h-[350px] sm:w-[370px] sm:h-[370px] sm:mx-auto' />
         </div>
       </div>
-
+{/*
       <div className='grid md:grid-rows-2 md:grid-cols-2 sm:grid-cols-1 sm:grid-rows-4 gap-y-10 place-items-baseline mt-10 mx-3'>
         <div className='flex justify-center items-center gap-10'>
           <IconBiography />
@@ -70,6 +70,7 @@ function UserPage() {
           </div>
         </div>
       </div>
+*/}
     </div>
   )
 }

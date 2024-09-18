@@ -1,11 +1,11 @@
 import { useRoutes } from "react-router-dom"
 import HomePage from "./pages/HomePage"
-import UserPage from "./pages/UserPage"
+//import UserPage from "./pages/UserPage"
 import NotFoundPage from "./components/NotFound.Component"
-import BiographyPage from "./components/BiographyPage.component"
-import PublicationsPage from "./components/PublicationsPage.Component"
-import CoursesPage from "./components/CoursesPage.Component"
-import ContactsPage from "./components/ContactsPage.Component"
+//import BiographyPage from "./components/BiographyPage.component"
+//import PublicationsPage from "./components/PublicationsPage.Component"
+//import CoursesPage from "./components/CoursesPage.Component"
+//import ContactsPage from "./components/ContactsPage.Component"
 
 //https://sharif.edu/~amini/
 //https://sharif.edu/~ansari/
@@ -14,7 +14,7 @@ function App() {
     {
       path:'/',
       element:<HomePage/>,
-      children:[
+      /*children:[
         {
           index: true,
           element:<UserPage/>
@@ -35,7 +35,7 @@ function App() {
           path:'/contacts',
           element:<ContactsPage/>
         }
-      ]
+      ]*/
     },
     {
       path : '/*',
