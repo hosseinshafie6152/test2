@@ -6,7 +6,7 @@ import IconAddress from '../icons/IconAddress'
 
 function ContactsPage() {
   return (
-    <div className='h-screen p-10 border-t-4 border-blue-900 col-start-2 col-end-13 row-start-2 row-end-3'>
+    <div className='md:w-4/5 sm-2x:w-full bg-white mx-auto h-screen p-10 border-t-4 border-blue-900 col-start-2 col-end-13 row-start-2 row-end-3'>
       <div>
         <h2 className='text-[50px] font-medium text-gray-700'>Contacts</h2>
       </div>
