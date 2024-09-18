@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function CoursesPage() {
   return (
-    <div className='h-screen p-10 col-start-2 col-end-13 row-start-2 row-end-3 border-t-4 border-blue-900'>
+    <div className='md:w-4/5 sm-2x:w-full mx-auto bg-white h-screen p-10 col-start-2 col-end-13 row-start-2 row-end-3 border-t-4 border-blue-900'>
       <div>
         <h2 className='text-gray-700 text-[50px] font-medium'>Courses</h2>
       </div>
